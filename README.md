@@ -14,6 +14,10 @@ El proyecto es una página web de venta de Hardware, accesorios y periféricos d
 
 - **styles.css**: Archivo que contiene los Estilos con CSS para header, nav, main, section, footer.
 
+- **carrito.js**: Integración de una API REST para obtener datos y renderizar productos en el DOM, además de la funcionalidad de un carrito de compras usando localStorage.
+
+- **login.js**: simulación de inicio de sesión ingresando usuario y contraseña, verificando los datos almancenados en localStorage.
+
 - **favicon.ico**: Archivo icono de la página, muestra imagen en la pestaña del navegador.
 
 - **README.md**: Archivo con descripción del proyecto y propósito de la página.
