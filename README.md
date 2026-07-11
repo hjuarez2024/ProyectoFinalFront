@@ -1,6 +1,6 @@
 # Proyecto final - Front
 
-Este proyecto es parte del curso de Front-End JS, enfocándose en el aprendizaje y progreso del uso de HTML y CSS. 
+Este proyecto es parte del curso de Front-End JS, enfocándose en el aprendizaje y progreso del uso de HTML, CSS y Javascript. 
 
 ## Descripción
 
