@@ -18,7 +18,7 @@ El proyecto es una página web de venta de Hardware, accesorios y periféricos d
 
 - **README.md**: Archivo con descripción del proyecto y propósito de la página.
 
-- **Estructura de carpetas**: Raiz: css - assets/img.
+- **Estructura de carpetas**: Raiz: css - assets/img - js - pages
 
 La página está estructurada con:
 
