@@ -4,7 +4,7 @@ Este proyecto es parte del curso de Front-End JS, enfocándose en el aprendizaje
 
 ## Descripción
 
-El proyecto es una página web de venta de Hardware, accesorios y periféricos de PC para Gamers. Desarrollado como parte del curso de Front-End JS. El objetivo es prepararla para futuras mejoras con JavaScript para la realización del Proyecto Integrador Final.
+El proyecto es una página web de venta de Hardware, accesorios y periféricos de PC para Gamers. Desarrollado como parte del curso de Front-End JS. El proyecto consiste en un sitio web de e-commerce dinámico e interactivo, que consuma datos de una API REST para mostrar productos. Se utilizó una API gratuita de productos genéricos, ya que no pude conseguir una gratis de productos de hardware.
 
 ## Contenido - Estructura del Proyecto
 
