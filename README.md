@@ -12,6 +12,10 @@ El proyecto es una página web de venta de Hardware, accesorios y periféricos d
   - Etiquetas semánticas principales: header, nav, main, section, footer.
   - Listas no ordenadas.
 
+- **carrito.html**: Sección Productos seleccionados.
+
+- **login.html**: Sección Login con formulario.
+
 - **styles.css**: Archivo que contiene los Estilos con CSS para header, nav, main, section, footer.
 
 - **carrito.js**: Integración de una API REST para obtener datos y renderizar productos en el DOM, además de la funcionalidad de un carrito de compras usando localStorage.
