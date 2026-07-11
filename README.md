@@ -50,7 +50,7 @@ La página está estructurada con:
 
 ## Fecha de Creación
 
-2026-05-27
+2026-07-10
 
 ## Autor
 
