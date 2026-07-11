@@ -1,4 +1,4 @@
-# Pre-Entrega de Proyecto
+# Proyecto final - Front
 
 Este proyecto es parte del curso de Front-End JS, enfocándose en el aprendizaje y progreso del uso de HTML y CSS. 
 
@@ -33,6 +33,7 @@ La página está estructurada con:
 
 - **HTML**: Lenguaje de marcado para la estructura de la página.
 - **CSS**: Para el estilo de la extructura e implementando Media Queries para el diseño responsivo.
+- **Javascript** Para la lógica e interactividad.
 
 ## Cómo Usar
 
