@@ -32,6 +32,10 @@ La página está estructurada con:
 4. Diseño Responsivo con Flexbox y Grid.
 5. Contenido Multimedia y Navegación.
 6. Subida del Proyecto a hosting gratuito (Netlify o GitHub Pages).
+7. JavaScript, Script.js: para manejar toda la interactividad de la página. DOM: manipulación de elementos del DOM. Fetch Api: Consumo de API con axios y async/await. Muestra los productos obtenidos de la API en la página en forma de tarjetas (cards).
+8. Carrito de compras dinámico: Agregar Productos al Carrito. Uso de localStorage: Guarda el estado del carrito. Contador Dinámico: Muestra el número total de productos en el carrito con actualización en tiempo real.
+9. Visualización del carrito: Muestra una lista de productos añadidos al carrito, incluyendo cantidad, precio y total.
+10. Persistencia del carrito: El carrito se mantiene activo incluso si el usuario cierra o actualiza la página, usando localStorage.
 
 ## Tecnologías Utilizadas
 
