@@ -1,42 +1,7 @@
 let listaProductos = [];
 let productShown = 0; // contador de productos
 let productPerPage = 3; // cantidad de productos
-/* 
-// Consumo de API con fetch y promesas
-function apiProduts() {
-   fetch('https://dummyjson.com/products')
-      .then( res => {
-         return res.json();
-      })
-      .then( data => {
-         console.log(data);
-         listaProductos = data.products;
-         console.log(listaProductos);
-         
-         crearProductos();
-      })
-      .catch( err => {console.log(err) })
-}
- */
-/* 
-// Consumo de API con fetch y async/await
-async function apiProduts() {
-   try {
-         const res = await fetch('https://dummyjson.com/products')
-      //console.log(res);
-         const data = await res.json();
-     //console.log(data.products);
-     
-         listaProductos = data.products;
-         console.log(listaProductos);
-         
-         crearProductos(); 
-   }
-   catch (err) {
-      console.log(err);
-   }
-}
- */
+
 // Consumo de API con axios y async/await
 async function apiProduts() {
     try {
@@ -149,27 +114,6 @@ function crearProductos() {
                 // Agrega el producto al array del carrito.
                 shoppingCart.push(product);
             }
-
-            /*
-               MEJORA PENDIENTE:
-      
-               Actualmente cada clic agrega un nuevo objeto al carrito.
-      
-               Ejemplo:
-               [
-                  { title: 'Vestido', count: 1 },
-                  { title: 'Vestido', count: 1 }
-               ]
-      
-               Lo ideal sería verificar si el producto ya existe.
-               Si existe:
-                  - aumentar su propiedad count
-               Si no existe:
-                  - agregarlo al carrito
-      
-               Esto evitaría productos duplicados.
-            */
-
 
             // Acumula el precio total.
             totalPrice += parseFloat(priceProduct);
