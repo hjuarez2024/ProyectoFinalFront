@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tu Setup Gamer</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="js/carrito.js" defer></script>
+
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="contenedor-header">
+
+        <!-- div Logo -->
+        <div class="logo-container">
+            <a href="#">
+                <img src="assets/img/logo.png" alt="Logo del sitio web" class="logo-img">
+            </a>
+
+            <h1 class="site-title"> <!-- clase sin usar -->
+                Tu Setup Gamer
+            </h1>
+        </div>
+
+        <!-- Nav - Barra de navegación -->
+        <nav class="nav"> <!-- clase sin usar -->
+            <ul class="nav-list">
+                <li><a href="#" class="nav-link">Inicio</a></li>
+                <li><a href="#productos" class="nav-link">Productos</a></li>
+                <li><a href="#reseñas" class="nav-link">Reseñas</a></li>
+                <li><a href="#contacto" class="nav-link">Contacto</a></li>
+                <li><a href="pages/carrito.html" class="nav-link">Carrito</a></li>
+            </ul>
+        </nav>
+
+        <div class="cart-icon">
+            <i class="fas fa-shopping-cart"></i>
+            <span class="count">0</span>
+        </div>
+
+        <div class="nav-login">
+            <a href="pages/login.html">Login</a>
+        </div>
+
+    </header>
+
+    <!-- Main -->
+    <main>
+
+        <!-- Sección Presentación del sitio -->
+        <section class="site-img">
+            <h2 class="titulo-presentacion">
+                Transformá tu espacio Gamer
+            </h2>
+
+        </section>
+
+        <!-- Sección Productos -->
+        <section id="productos" class="seccion-productos">
+
+            <!-- Productos destacados -->
+            <h2 class="products-section-title">
+                Nuestros Productos Destacados
+            </h2>
+
+            <div id="productCard" class="products-flex">
+
+                <!-- Articulo 1 -->
+                <!-- <article class="product-card">
+
+                </article> -->
+
+                <!-- Articulo 2 -->
+                <!-- <article class="product-card">
+
+                </article> -->
+
+                <!-- Articulo 3 -->
+                <!-- <article class="product-card">
+
+                </article> -->
+
+                <!-- Articulo 4 -->
+                <!-- <article class="product-card">
+
+                </article> -->
+
+            </div>
+
+            <div class="show-button">
+                <button id="mostrarProducts" class="button-add">Mostrar más productos</button>
+            </div>
+
+            
+
+
+        </section>
+
+
+        <!-- Sección Reseñas -->
+        <section id="reseñas" class="reviews-section">
+
+            <!-- Reseñas -->
+            <h2 class="reviews-section-title">
+                Opiniones de Clientes
+            </h2>
+
+            <div class="reseña-grid">
+
+                <!-- Reseña 1 -->
+                <article class="reseña-card">
+
+                    <div class="review-content">
+
+                        <h3 class="review-title">
+                            "Placa de video Nvidia"
+                        </h3>
+
+                        <p class="review-comment">Muy buen precio la placa y excelente financiación. Todo claro desde el inicio.
+                        </p>
+
+                        <div class="author">
+                            <p>-
+                                <span> Joaquín M. </span> -
+                            </p>
+                        </div>
+
+                    </div>
+
+                </article>
+
+                <!-- Reseña 2 -->
+                <article class="reseña-card">
+
+                    <div class="review-content">
+
+                        <h3 class="review-title">
+                            "Primera PC Gamer"
+                        </h3>
+
+                        <p class="review-comment">Todo llegó en tiempo y forma. Muy recomendable para primera PC gamer.
+                        </p>
+
+                        <div class="author">
+                            <p>-
+                                <span> Agustín G. </span> -
+                            </p>
+                        </div>
+
+                    </div>
+
+                </article>
+
+                <!-- Reseña 3 -->
+                <article class="reseña-card">
+
+                    <div class="review-content">
+
+                        <h3 class="review-title">
+                            "Componentes de calidad"
+                        </h3>
+
+                        <p class="review-comment">Excelente atención! Muy buen asesoramiento, y el producto que compré, una pc de escritorio, con componentes de primera calidad! Funciona perfecto, y con correcta configuración y cantidad de puertos. Muy recomendables!.
+                        </p>
+
+                        <div class="author">
+                            <p>-
+                                <span> Lucas J. </span> -
+                            </p>
+                        </div>
+
+                    </div>
+
+                </article>
+
+                <!-- Reseña 4 -->
+                <article class="reseña-card">
+
+                    <div class="review-content">
+
+                        <h3 class="review-title">
+                            "Envio del equipo"
+                        </h3>
+
+                        <p class="review-comment">Pedí una gamer y llegó lista para usar. Temperaturas perfectas y cero ruido.
+                        </p>
+
+                        <div class="author">
+                            <p>-
+                                <span> Román F. </span> -
+                            </p>
+                        </div>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+        <!-- Sección Contacto -->
+        <section id="contacto" class="contact-section">
+
+            <!-- Contacto -->
+            <h2 class="contact-section-title">
+                Contacto
+            </h2>
+
+            <h3 class="contact-title">
+                Contactate con nosotros
+            </h3>
+
+            <form action="https://formspree.io/f/mwvaprnl" method="POST" class="formulario">
+
+                <div class="datos">
+
+                    <label for="nombre" class="form-label">
+                        * Nombre:
+                    </label>
+
+                    <input type="text" id="nombre" name="nombre" placeholder="Nombre" class="form-input" required>
+
+                </div>
+
+                <div class="datos">
+
+                    <label for="email" class="form-label">
+                        * Correo electrónico:
+                    </label>
+
+                    <input type="email" id="email" name="correo" placeholder="usuario@ejemplo.com" class="form-input"
+                        required>
+
+                </div>
+
+                <div class="datos">
+
+                    <label for="mensaje" class="form-label">
+                        Mensaje:
+                    </label>
+
+                    <textarea id="mensaje" name="mensaje" placeholder="¿Cómo podemos ayudarte?" class="form-textarea"
+                        rows="6" cols="50" required></textarea>
+
+                </div>
+
+                <button type="submit" class="button-green">Enviar</button>
+                <button type="reset" class="button-clear">Limpiar Formulario</button>
+
+                <p><small>Los campos con * son obligatorios</small></p>
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>
+            <img src="assets/img/logo.png" alt="Logo del sitio web" class="logo-img">© 2026 Tu Setup Gamer. Todos los
+            derechos reservados.
+        </p>
+
+        <div class="circle-up">
+            <a href="#">
+                <i class="fa-solid fa-circle-chevron-up"></i>
+            </a>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>

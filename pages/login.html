@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tu Setup Gamer</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/styles.css">
+
+    <script src="../js/login.js" defer></script>
+
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="contenedor-header">
+
+        <!-- div Logo -->
+        <div class="logo-container">
+            <a href="#">
+                <img src="../assets/img/logo.png" alt="Logo del sitio web" class="logo-img">
+            </a>
+
+            <h1 class="site-title"> <!-- clase sin usar -->
+                Tu Setup Gamer
+            </h1>
+        </div>
+
+        <!-- Nav - Barra de navegación -->
+        <nav class="nav"> <!-- clase sin usar -->
+            <ul class="nav-list">
+                <li><a href="../index.html" class="nav-link">Inicio</a></li>
+                <li><a href="../index.html#productos" class="nav-link">Productos</a></li>
+                <li><a href="../index.html#reseñas" class="nav-link">Reseñas</a></li>
+                <li><a href="../index.html#contacto" class="nav-link">Contacto</a></li>
+                <li><a href="../pages/carrito.html" class="nav-link">Carrito</a></li>
+            </ul>
+        </nav>
+
+        <div class="cart-icon">
+            <i class="fas fa-shopping-cart"></i>
+            <span class="count">0</span>
+        </div>
+
+        <div class="nav-login">
+            <a href="#">Login</a>
+        </div>
+
+    </header>
+
+    <!-- Main -->
+    <main>
+
+        <!-- Sección Presentación del sitio -->
+        <section class="site-img">
+            <h2 class="titulo-presentacion">
+                Transformá tu espacio Gamer
+            </h2>
+
+        </section>
+
+        <!-- Sección Login -->
+        <section class="login-section">
+
+            <h2 class="login-section-title">
+                Inicia Sesión
+            </h2>
+
+            <form id="form-login" class="login">
+
+                <div class="datos">
+
+                    <label for="user" class="form-label">
+                        Nombre:
+                    </label>
+
+                    <input type="text" id="user" name="user" placeholder="Usuario" class="form-input" required>
+
+                </div>
+
+                <div class="datos">
+
+                    <label for="password" class="form-label">
+                        Contraseña:
+                    </label>
+
+                    <input type="password" id="password" name="password" placeholder="Contraseña" class="form-input"
+                        required>
+
+                </div>
+
+                <button type="submit" class="button-green">Ingresar</button>
+
+            </form>
+
+        </section>
+        
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>
+            <img src="../assets/img/logo.png" alt="Logo del sitio web" class="logo-img">© 2026 Tu Setup Gamer. Todos los
+            derechos reservados.
+        </p>
+
+        <div class="circle-up">
+            <a href="#">
+                <i class="fa-solid fa-circle-chevron-up"></i>
+            </a>
+        </div>
+
+    </footer>
+    
+</body>
+</html>
